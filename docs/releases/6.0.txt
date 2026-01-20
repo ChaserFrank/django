@@ -237,6 +237,11 @@ Minor features
   files (and for deleted files when using ``--clear``) at ``--verbosity`` 1. To
   see per-file details for either case, set ``--verbosity`` to 2 or higher.
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 Email
 ~~~~~
 
